@@ -20,21 +20,22 @@ Las clases consideran “a lo menos” los siguientes atributos:
 Desde el Main debe:
 
 1.	Crear un menú de opciones para el usuario que contemple lo siguiente: 
-o	Agregar cliente, auto y/o mantención
-o	Eliminar cliente
-o	Listar las mantenciones realizadas a un vehículo en particular 
-o	Informe de recaudación del día
+-	Agregar cliente, auto y/o mantención
+-	Eliminar cliente
+-	Listar las mantenciones realizadas a un vehículo en particular 
+-	Informe de recaudación del día
 2.	Crear una colección de tipo ArrayList para almacenar los objetos correspondientes
 
 Además:
-•	Construir constructores con y sin parámetros en cada clase
-•	Accesadores y mutadores (getter y setter)
-•	Método de impresión de clase, además de “toString()”
-•	Se debe validar:
-o	Datos de tipo String no pueden estar vacíos
-o	Fono contacto debe tener a lo menos 9 dígitos numéricos (enteros)
-o	PPU debe contemplar 6 caracteres
-o	Año de fabricación, debe ser mayor a 1960 y contemplar sólo 4 dígitos
-o	La fecha según estructura para el día y el mes
-o	Agregar bloque try/catch para controlar excepciones en la lectura de datos
+-	Construir constructores con y sin parámetros en cada clase
+-	Accesadores y mutadores (getter y setter)
+-	Método de impresión de clase, además de “toString()”
+
+Se debe validar:
+  - Datos de tipo String no pueden estar vacíos
+  - Fono contacto debe tener a lo menos 9 dígitos numéricos (enteros)
+  - PPU debe contemplar 6 caracteres
+  - Año de fabricación, debe ser mayor a 1960 y contemplar sólo 4 dígitos
+  - La fecha según estructura para el día y el mes
+  - Agregar bloque try/catch para controlar excepciones en la lectura de datos
 
